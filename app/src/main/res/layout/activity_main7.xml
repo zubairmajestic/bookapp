@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.ctadmin.myapplication.Main7Activity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/g3"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="7dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_marginTop="9dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="176dp"
+        android:layout_height="120dp"
+        android:text="The Super Chef Contest"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="147dp"
+        android:layout_height="47dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Buy $17"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="404dp"
+        android:layout_height="213dp"
+        android:text="Each Geronimo Stilton book is fast-paced, with lively full-colour art and a unique format kids 7-10 love. There was a major event coming up: The Super Chef Contest! The winner is declared the best chef on Mouse Island. My cousin Trap decided to enter the competition - and he brought me along as an assistant! Slimy Swiss cheese, I don't know the first thing about cooking. I was in for a delicious adventure!"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="378dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
+</RelativeLayout>

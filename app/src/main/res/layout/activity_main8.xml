@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.ctadmin.myapplication.Main8Activity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/g4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="167dp"
+        android:layout_height="92dp"
+        android:text="Save the White Whale"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="19dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="141dp"
+        android:layout_height="43dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Buy $12"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="237dp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignEnd="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="341dp"
+        android:layout_height="178dp"
+        android:text="In each Geronimo Stilton book, another funny, cheesy adventure is always right around the corner. Each book is fast-paced, with lively full-color art and a unique format kids 7-10 will love. Holey cheese, did I need a vacation! I had been working my tail off at The Rodent's Gazette, so when Petunia Pretty Paws invited me to visit Whale Bay with her, of course I…"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="326dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp" />
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ctadmin.myapplication.Main5Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/g1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="47dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="School Adventure"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Buy $10"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="When my nephew, Benjamin, invited me to Career Day at his school, things did not turn out the way I expected. I caused a volcanic explosion, got tangled in the tunnel slide on the playground, and accidentally let the class's pet gecko out of its cage! Rat munching rattlesnakes-how was I going to get myself out of this mess?"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
